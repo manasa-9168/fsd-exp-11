@@ -1,13 +1,15 @@
-create folder open in cmd 
-npm install -g @angular/cli
-ng new prog10
-no
-css(select)
-no
-cd prog10
-ng g c header
-ng g c profile
-ng g c home
+npm install -g npx
+npm install -g create-react-app
+npx create-react-app spa
+cd spa
 code .
-in vs code copy folders from github in cmd prmpt
-ng serve
+copy all folders from github
+in cmd prompt type   npm start
+
+if any errors
+npm install react-router-dom
+npm install bootstrap
+npm install react-bootstrap bootstrap@5.1.3
+
+npm start
+
